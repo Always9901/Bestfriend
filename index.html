@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple Project</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .innerco {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+
+        }
+
+        .nav {
+            width: 85%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nav a {
+            text-decoration: none;
+            margin: 40px;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            ;
+            color: white;
+
+        }
+
+        .nav a:hover {
+            color: blue;
+
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration: solid underline blue 4px;
+
+        }
+
+        .inner {
+            display: inline;
+            text-align: center;
+
+        }
+
+        .cover-heading {
+            margin-top: 200px;
+            color: white;
+        }
+
+        .lead {
+            width: 700px;
+            margin: 30px auto;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            color: white;
+            line-height: 30px;
+            text-align: center;
+
+        }
+
+        .leada {
+            margin: 50px;
+            padding: 20px 20px 20px 20px;
+            background-color: blue;
+            width: 100px;
+            margin: auto;
+            font-weight: bold;
+
+
+
+
+            border-radius: 10px;
+
+        }
+
+        .leada a {
+            text-decoration: none;
+            font: 1em sans-serif;
+            color: white;
+
+        }
+
+        .leada:hover {
+            background-color: black;
+        }
+
+        .cover-container {
+            height: 100vh;
+            background-color: #333333;
+        }
+
+        .masthead {
+            color: white;
+        }
+
+        .Contanier {
+            margin-top: 200px;
+            height: 200px;
+            font-weight: bold;
+
+
+
+
+        }
+
+        .Bestfriend {
+            margin-left: 78px;
+            font-size: 50px;
+            margin-top: 400px;
+        }
+
+        hr {
+            width: 90%;
+            border-top: 3px solid black;
+        }
+
+        .Small {
+            display: flex;
+            width: 90%;
+            height: 400px;
+        }
+
+        .Small2 {
+            display: inline-block;
+        }
+
+        .Close {
+            width: 90%;
+            height: 200px;
+
+
+
+
+        }
+
+        .frd1 {
+
+            text-align: justify;
+            font-weight: 20px;
+            font-size: 30px;
+            height: 100px;
+
+            width: 500px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            ;
+        }
+
+        .Small {
+            margin-left: 30px;
+        }
+
+        .frd2 {
+            margin-top: 60px;
+            font-size: 18px;
+            width: 500px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            ;
+
+
+        }
+
+        .frd3 {
+            width: 100%;
+
+            margin-top: 70px;
+        }
+
+        .frd3 a {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+
+            background-color: bisque;
+            text-decoration: none;
+
+            border-radius: 10px;
+
+        }
+
+        .frd3 a:hover {
+            background-color: #333333;
+        }
+
+
+
+        .Friendship {
+            display: grid;
+            grid-template-columns: 400px 350px;
+            text-align: center;
+        }
+
+        .Into {
+            text-align: justify;
+            line-height: 40px;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            ;
+
+        }
+
+        .pooja img {
+            border-radius: 80px;
+            width: 250px;
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        .bottom{
+            height: 200px;
+            text-align: center;
+            background-color: #333333;
+            padding-top: 100px;
+        }
+        .bottom a{
+            margin: 20px;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        .bottom a:hover{
+            color: aliceblue;
+        }
+        .bottom p{
+            color: aliceblue;
+        }
+
+        @media screen and (max-width: 800px) {
+            .cover-heading {
+                width: 200px;
+                margin: auto;
+                margin-top: 100px;
+
+            }
+
+            .lead {
+                width: 300px;
+                text-align: center;
+
+            }
+
+            .Bestfriend {
+                width: 40px;
+                margin: 50px;
+
+            }
+
+            .frd1 {
+                width: 300px;
+            }
+
+            .frd2 {
+                width: 300px;
+            }
+
+            .Small {
+                display: block;
+
+            }
+
+            .Friendship {
+                display: block;
+            }
+           .bottom{
+            margin-top: 800px;
+           }
+
+        }
+    </style>
+
+
+</head>
+
+<body class="text-center" cz-shortcut-listen="true">
+    <div class="cover-container">
+        <header class="masthead">
+            <div class="innerco">
+                <h3 class="masthead">Friends Zone</h3>
+                <nav class="nav">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">BestFriends </a>
+                    <a class="nav-link" href="#">Friends</a>
+                </nav>
+            </div>
+        </header>
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">MY LITTLE FRIEND ZONE .</h1>
+            <p class="lead ">A best friend a cherished half of my heart, an unwavering light in life's journey.</p>
+            <p class="leada">
+                <a href="#" class="secondary">Learn more</a>
+            </p>
+
+        </main>
+        <div class="Contanier">
+            <h2 class="Bestfriend">BestFriend</h2>
+            <hr>
+            <div class="Small">
+                <div class="Small2">
+                    <h3 class="frd1">
+
+                        A best friend a cherished half of my heart, an unwavering light in life's journey.
+                    </h3>
+                    <p class="frd2">
+                        Studies show that having a best friend can boost overall well-being and happiness. True
+                        friendship is a treasure, enriching life's journey with shared joys and unwavering support.
+                    </p>
+                    <p class="frd3">
+                        <a href="#" class="">Learn more</a>
+                    </p>
+                </div>
+                <div class="Close">
+                    <div class="Friendship">
+                        <div class="pooja">
+                            <img src="pooja.jpg" height="300" alt="Pooja">
+
+
+                        </div>
+                        <div class="Into">
+                            <p>Pooja</p>
+                            <p class="Pooja">To my best friend: May your days be filled with joy, your challenges turn
+                                into triumphs, and your heart find endless happiness in life's beautiful moments. Cheers
+                                to our enduring friendship and the incredible journey ahead!</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="bottom">
+                <a class="footer-link" href="https://www.linkedin.com/in/POOJa-yu-963a584b/">LinkedIn</a>
+                <a class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
+                <a class="footer-link" href="https://www.appbrewery.com/">Instagram</a>
+                <p class="copyright">©Pooja @ MY LITTLE BESTFIREND.</p>
+              </div>
+
+
+        </div>
+
+
+
+
+
+</html>
